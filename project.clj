@@ -6,6 +6,9 @@
                  [clj-time "0.6.0"]
                  [aleph "0.3.0"]]
   :javac-options ["-target" "1.7" "-source" "1.7"]
+  :source-paths      ["src/clj"]
+  :java-source-paths ["src/java"]
+  :test-paths        ["test/clj"]
   :immutant {:context-path "/ialab"}
   :profiles {:dev        {:source-paths ["dev"]
                           :dependencies [[org.clojure/tools.namespace "0.2.3"]

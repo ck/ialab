@@ -1,0 +1,1 @@
+{:root "/Users/ck/code/active/ialab", :context-path "ialab", :lein-profiles [:dev :test], :swank-port nil, :nrepl-port 0, :nrepl-port-file "target/test-repl-port"}
