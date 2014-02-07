@@ -10,7 +10,7 @@
   :java-source-paths ["src/java"]
   :test-paths        ["test/clj"]
   :immutant {:context-path "/ialab"}
-  :profiles {:dev        {:source-paths ["dev"]
+  :profiles {:dev        {:source-paths ^:displace ["dev"]
                           :dependencies [[org.clojure/tools.namespace "0.2.3"]
                                          [org.clojure/java.classpath "0.2.0"]]
                           :immutant {:init        immutant.system/init
